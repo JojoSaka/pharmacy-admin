@@ -12,7 +12,7 @@ import Footer from "./Footer";
 
 const MobileNav = () => {
   return (
-    <section>
+    <section className="relative">
       <Sheet>
         <div className="flex justify-between p-5">
           <div className="flex gap-5 items-center">
@@ -77,8 +77,9 @@ const MobileNav = () => {
               ))}
             </div>
           </SheetClose>
-
-          <Footer />
+          <div className="absolute bottom-3 left-2">
+            <Footer />
+          </div>
         </SheetContent>
       </Sheet>
     </section>

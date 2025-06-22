@@ -12,15 +12,15 @@ const Orders = ({ activeOrder, setActiveOrder }: OrderProps) => {
 
   return (
     <div>
-      <div className="overflow-x-auto whitespace-nowrap">
-        <div className="flex gap-6 py-4">
+      <div className="overflow-x-auto overflow-y-hidden">
+        <div className="flex gap-6 py-4 whitespace-nowrap">
           {OrderDetails.map((order) => {
             const isActive = activeOrder === order.id
 
             return (
               <div
                 key={order.id}
-                className="order-box"
+                className="order-box min-w-[250px]"
                 onClick={() => setActiveOrder(order.id)}
               >
                 <div className={`order-box_title ${isActive ? "!text-green-600": ""}`}>

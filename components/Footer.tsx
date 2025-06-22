@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-between mt-20 items-center" >
+      <div className="flex space-x-10 mt-20 items-center" >
         <div className="flex gap-5 \">
           <div className="rounded-full w-[40px] h-[40px] flex-center bg-slate-200">
             J

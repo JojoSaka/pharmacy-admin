@@ -22,7 +22,7 @@ export default function Home() {
   // }, []);
 
   return (
-    <main className="grid grid-cols-1 md:grid-cols-3 px-7 py-5">
+    <main className="grid grid-cols-1 xl:grid-cols-3 px-7 py-5">
       <section className="col-span-2">
         <div>
           <h1 className="font-bold text-lg">Waiting list</h1>
