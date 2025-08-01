@@ -11,12 +11,13 @@ const MedicineCard = () => {
       {Medicines.map((item) => (
         <div key={item.name} className="p-1 xl:p-5 bg-white rounded-2xl space-y-4">
           <div className="flex justify-evenly gap-5">
-            <div className="bg-gray-200 flex justify-center items-center rounded-2xl">
+            <div className="bg-gray-200 flex justify-center items-center rounded-2xl h-[200px]">
               <Image
-                src={"/assets/hero.png"}
+                src={item.imageUrl}
                 alt="Medicine Image"
                 width={600}
-                height={1000}
+                height={200}
+                className="h-full object-contain"
               />
             </div>
             <div className="space-y-6">

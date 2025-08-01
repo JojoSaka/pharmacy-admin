@@ -3,10 +3,10 @@ import React from "react";
 
 const WaitlistCard = () => {
   return (
-    <div className="flex gap-5">
+    <div className="flex gap-5 mb-2">
       <div className="bg-gray-200 flex justify-center items-center rounded-2xl">
         <Image
-          src={"/assets/hero.png"}
+          src={"/assets/med5.jpg"}
           alt="Medicine Image"
           width={180}
           height={1000}

@@ -36,7 +36,7 @@ const MobileNav = () => {
           </SheetTrigger>
         </div>
 
-        <SheetContent className="bg-white min-h-screen" side={"left"}>
+        <SheetContent className="bg-white h-screen" side={"left"}>
           <SheetHeader>
             <SheetTitle>
               <div className="flex gap-5 items-center mb-10 px-5">
@@ -77,9 +77,12 @@ const MobileNav = () => {
               ))}
             </div>
           </SheetClose>
-          <div className="absolute bottom-3 left-2">
-            <Footer />
-          </div>
+
+          <SheetClose>
+            <div className="absolute bottom-3 left-2">
+              <Footer />
+            </div>
+          </SheetClose>
         </SheetContent>
       </Sheet>
     </section>

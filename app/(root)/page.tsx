@@ -28,6 +28,9 @@ export default function Home() {
           <h1 className="font-bold text-lg">Waiting list</h1>
           <Orders activeOrder={activeOrder} setActiveOrder={setActiveOrder} />
         </div>
+        <section className="xl:hidden">
+          <WaitList activeOrder={activeOrder} />
+        </section>
         <div>
           <h1 className="font-bold text-lg">Medicines</h1>
           <Categories query={query} setQuery={setQuery} />
@@ -36,7 +39,7 @@ export default function Home() {
           <MedicineCard />
         </div>
       </section>
-      <section>
+      <section className="hidden xl:block">
         <WaitList activeOrder={activeOrder} />
       </section>
     </main>

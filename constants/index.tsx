@@ -123,7 +123,7 @@ export const Medicines = [
   {
     name: "Paracetamol Berno",
     description: "Paracetamol works by inhibiting the production of certain chemicals in the body that are responsible for pain and fever", 
-    imageUrl: "",
+    imageUrl: "/assets/med1.jpg",
     size: "60ml",
     stock: 12,
     price: 3.75,
@@ -131,7 +131,7 @@ export const Medicines = [
   {
     name: "Insto Cool",
     description: "Paracetamol works by inhibiting the production of certain chemicals in the body that are responsible for pain and fever", 
-    imageUrl: "",
+    imageUrl: "/assets/med2.jpg",
     size: "60ml",
     stock: 12,
     price: 3.75,
@@ -139,7 +139,7 @@ export const Medicines = [
   {
     name: "Pro Cold",
     description: "Paracetamol works by inhibiting the production of certain chemicals in the body that are responsible for pain and fever", 
-    imageUrl: "",
+    imageUrl: "/assets/med3.jpg",
     size: "60ml",
     stock: 12,
     price: 3.75,
@@ -147,7 +147,7 @@ export const Medicines = [
   {
     name: "Amosascilin",
     description: "Paracetamol works by inhibiting the production of certain chemicals in the body that are responsible for pain and fever", 
-    imageUrl: "",
+    imageUrl: "/assets/med4.jpg",
     size: "60ml",
     stock: 12,
     price: 3.75,
